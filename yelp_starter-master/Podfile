@@ -1,0 +1,15 @@
+xcodeproj 'Yelp.xcodeproj'
+
+platform :ios, :deployment_target => '8.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+
+target "Yelp" do
+
+pod 'AFNetworking', '~> 2.5'
+pod 'BDBOAuth1Manager'
+pod 'MBProgressHUD'
+
+end
